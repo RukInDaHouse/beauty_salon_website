@@ -583,7 +583,7 @@ img.block-right {
 
 .grid-item img {
     display: block;
-    width: 100%;
+    width: 75%;
     height: auto;
     max-height: none;
     max-width: none;    
@@ -1302,8 +1302,18 @@ p.contact-submit-holder {
     .section {
         margin-top: 0;
         padding-top: 80px;
-    }
 
+
+    }
+.container {
+        min-width: 500px;
+        max-width: 600px;
+        padding-right: 55px;
+        padding-left: 55px;
+    }
+    #cntr {
+        margin:0 auto;
+    }
     .section {
         padding-top: 55px;
     }
@@ -1890,8 +1900,7 @@ textarea {
 }
 
 .slide img {
-    display:block;
-margin:auto;
+   
     height: 100%;
 }
 
