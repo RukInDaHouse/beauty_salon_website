@@ -48,7 +48,6 @@ html {
 
 .about-text ul li {
     list-style-position: outside;
-    list-style-type: disc;
     margin: 5%;
 }
 
@@ -2263,17 +2262,23 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
 .swiper-container {
     width: 100%;
     height: 600px;
+        text-align: center;
+
 }
 }
 @media (max-width: 1198px) {
 .swiper-container {
     width: 100%;
     height: 400px;
+    text-align: center;
 }
 }
 
 .swiper-container img{
-    width: 100%;
-    margin: 0 auto
+    width: 80%;
+    margin: 0 auto;
+        text-align: center;
+
+
 
 }
