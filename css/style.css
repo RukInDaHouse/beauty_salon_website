@@ -38,6 +38,20 @@ html {
     background: #fff0f0;
 }
 
+.section-des ul li {
+    list-style-position: outside;
+    margin: 5%;
+    list-style: none; 
+    background: url(../img/marker1.svg) no-repeat left 50%; 
+    padding-left: 15%;
+}
+
+.about-text ul li {
+    list-style-position: outside;
+    list-style-type: disc;
+    margin: 5%;
+}
+
 body {
     color: #000000;
     line-height: 2;
@@ -141,6 +155,7 @@ img.block-right {
 }
 .ogr {
     margin-top: 40px;
+    text-align: center;
 }
 .ogr hr {
      border: none; /* Убираем границу для браузера Firefox */
@@ -148,8 +163,12 @@ img.block-right {
     background-color: red; /* Цвет линии для браузера Firefox и Opera */
     height: 2px; /* Толщина линии */
 }
-
-
+.hd {
+text-align: center; 
+color: red; 
+font-size:23px;
+font-weight:bold;
+}
 /* ===================================
     2. Header / Menu CSS
 ====================================== */
@@ -307,6 +326,8 @@ img.block-right {
     height: 20px;
     width: 30px;
     display: block;
+        margin-left:90%; 
+
 }
 
 .nav-btn .nav-btn-cover .menu-line {
@@ -317,6 +338,7 @@ img.block-right {
     margin-right: 0;
     top: 8px;
     background-color: #000;
+
 }
 
 .nav-btn .nav-btn-cover:after, 
@@ -1064,8 +1086,11 @@ p.contact-submit-holder {
     letter-spacing: 8px;
     transition: opacity .3s ease;
     cursor: pointer;
+    margin: 0 auto;
 }
-
+.frm {
+    margin: 0 auto;
+}
 .contact-form input[type=submit]:hover {
     opacity: 0.8;
 }
@@ -1544,9 +1569,11 @@ p.contact-submit-holder {
     .ss {display: block ;
         text-align: center;
         position: absolute;
-        font-size: 28px;
+        font-size: 30px;
        width: 100%;
        top:0;
+       padding: 0;
+       margin: 0; 
 
     }
 
@@ -1710,8 +1737,9 @@ textarea {
   max-width: 768px;
   margin: 60px auto;
   position: relative;
-  background:#f44647; 
-  color: #fff;
+  background:#fff; 
+  color: #000;
+  border-radius: 10px;
 }
 
 form {
@@ -1720,11 +1748,9 @@ form {
     color: #fff;
 
 }
-.colortext {
-    color:#fff!important;
-}
+
 h1 {
-  color: #fff;
+  color: #000;
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 7px;
@@ -1792,13 +1818,15 @@ input[type='text']:focus, [type='email']:focus, textarea:focus {
 .message {
     float: none;
       color: #fff;
+      margin:0 auto;
 
 }
 
 .name {
-    float: left;
-    width: 45%;
+    margin:0 auto;
+    width: 100%;
       color: #fff;
+      text-align: center!important;
 
 }
 
