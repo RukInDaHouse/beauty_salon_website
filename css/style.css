@@ -139,6 +139,15 @@ img.block-right {
 .section .section-des {
     margin-bottom: 40px;
 }
+.ogr {
+    margin-top: 40px;
+}
+.ogr hr {
+     border: none; /* Убираем границу для браузера Firefox */
+    color: red; /* Цвет линии для остальных браузеров */
+    background-color: red; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+}
 
 
 /* ===================================
@@ -258,7 +267,7 @@ img.block-right {
     position: fixed;
     display: block;
     top: 0;
-    left: 0;
+    right: 0!important;
     padding: 14px 10px;
     transition: .15s ease;
     cursor: pointer;
@@ -271,7 +280,7 @@ img.block-right {
 }
 
 .nav-btn:hover .nav-btn-cover:before {
-    margin-left: 9px;
+    margin-right: 9px;
 }
 
 .nav-btn:hover .nav-btn-cover .menu-line {
@@ -305,7 +314,7 @@ img.block-right {
     height: 3px;
     position: absolute;
     transition: all 0.25s;
-    margin-left: 0;
+    margin-right: 0;
     top: 8px;
     background-color: #000;
 }
@@ -346,6 +355,8 @@ img.block-right {
 /* ===================================
     3. Home Section CSS
 ====================================== */
+
+.ss {display: none;}
 
 #home {
     height: 100vh;
@@ -424,6 +435,14 @@ img.block-right {
     max-width: 440px;
     font-size: 22px;
     line-height: 1.65;
+}
+.ogr {
+    max-width: 440px;
+    font-size: 26px;
+    line-height: 1.65;
+    color:red;
+    font-weight: bold;
+
 }
 
 .serv-link-cover {
@@ -1226,6 +1245,8 @@ p.contact-submit-holder {
         font-size: 100px;
         line-height: 123px;
     }
+    .ss {display: none;}
+
 
     .block-right {
         margin-right: -60px;
@@ -1251,6 +1272,8 @@ p.contact-submit-holder {
         font-size: 80px;
         line-height: 113px;
     }
+    .ss {display: none;}
+
 
 }
 
@@ -1394,7 +1417,7 @@ p.contact-submit-holder {
         background-color: #fff;
         width: 100%;
         top: 0;
-        left: 0;
+        right: 0;
         z-index: 2;
     }
 
@@ -1407,11 +1430,14 @@ p.contact-submit-holder {
     .page-wrapper {
         margin-top: 48px;
     }
-
+.rgt {
+    position: absolute;
+    right: 5!important;
+}
     .nav-count {
         position: fixed;
         top: 12px;
-        right: 15px;
+        left: 15px;
         display: block;
         opacity: 1;
     }
@@ -1511,10 +1537,19 @@ p.contact-submit-holder {
     }
 
     #home .entry-title {
-        font-size: 46px;
+        font-size: 36px;
         line-height: 62px;
         padding: 50px 0;
     }
+    .ss {display: block ;
+        text-align: center;
+        position: absolute;
+        font-size: 28px;
+       width: 100%;
+       top:0;
+
+    }
+
 
     p,
     .section h2.title,
@@ -1526,6 +1561,10 @@ p.contact-submit-holder {
     .section-des {
         font-size: 18px;
     }
+    .ogr {
+        font-size: 26px;
+    }
+
 
     .s-nav {
         max-width: 100%;
@@ -1671,15 +1710,21 @@ textarea {
   max-width: 768px;
   margin: 60px auto;
   position: relative;
+  background:#f44647; 
+  color: #fff;
 }
 
 form {
   padding: 37.5px;
   margin: 50px 0;
-}
+    color: #fff;
 
+}
+.colortext {
+    color:#fff!important;
+}
 h1 {
-  color: #474544;
+  color: #fff;
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 7px;
@@ -1694,7 +1739,7 @@ h1 {
 }
 
 .icon_wrapper {
-  margin: 50px auto 0;
+  margin: 20px auto 0;
   width: 100%;
 }
 
@@ -1733,20 +1778,28 @@ input[type='text'], [type='email'], select, textarea {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+      color: #fff;
+
 }
 
 input[type='text']:focus, [type='email']:focus, textarea:focus {
     outline: none;
     padding: 0 0 0.875em 0;
+      color: #fff;
+
 }
 
 .message {
     float: none;
+      color: #fff;
+
 }
 
 .name {
     float: left;
     width: 45%;
+      color: #fff;
+
 }
 
 select {
@@ -1772,6 +1825,8 @@ textarea {
     line-height: 150%;
     height: 150px;
     resize: none;
+      color: #fff;
+
   width: 100%;
 }
 
@@ -1814,7 +1869,8 @@ textarea {
 
 #form_button:hover {
   background: #474544;
-  color: #F2F3EB;
+    color: #fff;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -2175,10 +2231,21 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
 
 .description input[type=checkbox]:checked~.description-text { opacity: 1 }
 
+@media (min-width: 1199px) {
 .swiper-container {
     width: 100%;
     height: 600px;
 }
+}
+@media (max-width: 1198px) {
+.swiper-container {
+    width: 100%;
+    height: 400px;
+}
+}
+
 .swiper-container img{
-    height: 100%;
+    width: 100%;
+    margin: 0 auto
+
 }
