@@ -67,7 +67,7 @@ body {
     min-width: 320px;
     position: relative;
     overflow-x: hidden;
-    background: linear-gradient(to right, #fff0f0 0%, #fff0f0 60%, white 60%);
+    background-color: #e9dfde;
     background-position: center;
 }
 
@@ -127,7 +127,7 @@ img.block-right {
 .page-wrapper {
     pointer-events: auto;
     width: 100%;
-    background-color: #fff0f0;
+    background-color: #e9dfde;
     max-width: 800px;
 }
 
@@ -189,6 +189,8 @@ font-weight:bold;
     z-index: 1;
     overflow: hidden;
     padding: 85px 100px 85px 200px;
+            background-color: transparent;
+
 }
 
 .nav-count {
@@ -1391,8 +1393,7 @@ p.contact-submit-holder {
 @media (max-width: 1020px) {
 
     body {
-        background: #fff0f0;
-    }
+background-color: #e9dfde;    }
 
 }
 
