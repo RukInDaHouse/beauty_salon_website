@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="./css/owl.carousel.min.css">
         <link rel="stylesheet" href="./css/owl.theme.default.min.css">
         <link rel="stylesheet" href="./css/style.css">
-     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+ <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link href="https://allfont.ru/allfont.css?fonts=forum" rel="stylesheet" type="text/css" />
     <style>
@@ -24,7 +24,6 @@
         font-family: 'Forum', arial;
       }
       .container-wrap h1 {
-    font-family: "Poppins", sans-serif;
     color: #000;
 
       }
@@ -242,7 +241,7 @@
                     </div>
 
 
-                    <img class="about-img block-right" data-jarallax-element="0 -40" src="./img/portfolio9.jpg" alt="" style="position: relative; z-index: 0; transform: translate3d(219.915px, 0px, 0px);"><div id="jarallax-container-3" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;"><div style="position: fixed;"></div></div></img>
+                    <img class="about-img block-right" data-jarallax-element="0 -40" src="./img/portfolio5.jpg" alt="" style="position: relative; z-index: 0; transform: translate3d(219.915px, 0px, 0px);"><div id="jarallax-container-3" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;"><div style="position: fixed;"></div></div></img>
 
                     
 
@@ -295,16 +294,45 @@
                
                 <div class="swiper-slide">
                     <div class="slider-image">
-                        <img src="./img/portfolio5.jpg" alt="slide 7">
+                        <img src="./img/portfolio9.jpg" alt="slide 7">
                     </div>
                 </div>
                 
                         <!-- Add Pagination -->
         </div>
         <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
     </div>
 
                 </section>
+
+<section id="rw" class="section">
+                    <h2 class="title">Отзывы</h2>
+                    <!-- Slider main container -->
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="./img/re.jpg" alt="slide 7"></div>
+        <div class="swiper-slide"><img src="./img/re2.jpg" alt="slide 7"></div>
+        <div class="swiper-slide"><img src="./img/re3.jpg" alt="slide 7"></div>
+        <div class="swiper-slide"><img src="./img/re4.jpg" alt="slide 7"></div>
+        ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-paginationtwo"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+</div>
+                </section>
+
+
                 <section id="zapis" class="section">
                    
 
@@ -409,5 +437,23 @@ var swiper = new Swiper( '.swiper-container.two', {
             slideShadows : false,
         }
 } );
+</script>
+<script type="text/javascript">
+var swiper = new Swiper( '.swiper-container', {
+        pagination: '.swiper-paginationtwo',
+        paginationClickable: true,
+        loop: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflow: {
+            rotate: 0,
+            stretch: 100,
+            depth: 150,
+            modifier: 1.5,
+            slideShadows : false,
+        }
+} );
+</script>
+    
 </script>
 </body></html>
