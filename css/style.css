@@ -15,8 +15,15 @@
 11. Responsive CSS
 
 -------------------------------------------------------------------*/
-
-
+@font-face {
+    font-family: "HelveticaRegular";
+    src: url("../fonts/HelveticaRegular.eot");
+    src: url("../fonts/HelveticaRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaRegular.woff") format("woff"),
+    url("../fonts/HelveticaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 /* ===================================
     1. Global CSS
 ====================================== */
@@ -62,7 +69,7 @@ body {
     color: #000000;
     line-height: 2;
     font-size: 15px;
-    font-family: "Poppins", sans-serif;
+    font-family: "HelveticaRegular";
     font-weight: 400;
     min-width: 320px;
     position: relative;
@@ -165,13 +172,13 @@ img.block-right {
 }
 .ogr hr {
      border: none; /* Убираем границу для браузера Firefox */
-    color: red; /* Цвет линии для остальных браузеров */
-    background-color: red; /* Цвет линии для браузера Firefox и Opera */
+    color: #fff; /* Цвет линии для остальных браузеров */
+    background-color: #fff; /* Цвет линии для браузера Firefox и Opera */
     height: 2px; /* Толщина линии */
 }
 .hd {
 text-align: center; 
-color: red; 
+color: #000; 
 font-size:23px;
 font-weight:bold;
 }
@@ -469,7 +476,7 @@ font-weight:bold;
 .ogr {
     font-size: 26px;
     line-height: 1.65;
-    color:red;
+    color: #000;
     font-weight: bold;
 
 }
