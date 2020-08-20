@@ -5,9 +5,7 @@ if (isset($_POST['form'])) { // Это ид кнопки на которую н�
 
 $name = $_POST['user_name'];// это что ловим с формы 
 $phone = $_POST['user_phone']; // это что ловим с формы
-$email = $_POST['user_email']; // это что ловим с формы
-// Можно приписывать так если ловить не надо 
-// $zakaz = "Заказ с сайты XXX";
+
 
 $token = "1253277011:AAGGXrlyeSr4A7EIG8LS4LIJzoFQR3qosLw"; // Это ТОКЕН
 $chat_id = "-466997802"; // Это ИД группы
@@ -28,7 +26,7 @@ $sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_i
 
 // Это условие Если отправлено редирект если нет  ошибка Можно убрать!
 if ($sendToTelegram) {
-  header('Location: url.html');
+  header('Location: http://f0421388.xsph.ru/');
 } else {
   echo "Error";
 }
