@@ -106,8 +106,8 @@ src="https://www.facebook.com/tr?id=665248897410567&ev=PageView&noscript=1"
                             <ul class="nav-list">
                                 <li class="current"><a href="#services"></a></li>
                                 <li><a href="#promo">Акция</a></li>
-                                <li><a href="#aboutmaster">О мастере</a></li> 
-                                <li><a href="#aboutjob">О макияже</a></li>                                                                       
+                                <li><a href="#aboutjob">О макияже</a></li>
+                                <li><a href="#aboutmaster">О мастере</a></li>                                                                        
                                 <li><a href="#portfolio">Работы</a></li>
                                 <li><a href="#rew">Отзывы</a></li>
                                 <li><a href="#zapis">Записаться</a></li>
@@ -332,15 +332,29 @@ src="https://www.facebook.com/tr?id=665248897410567&ev=PageView&noscript=1"
 
                 </section>
 
-<section id="rw" class="section  clientpic ">
+<section id="rw" class="section">
                     <h2 class="title">Отзывы</h2>
-    <div class="photos">
-                            <a href="./img/re.jpg" data-fancybox="clientpic"><img src="./img/re.jpg" alt=""></a>
-                            <a href="./img/re2.jpg" data-fancybox="clientpic"><img src="./img/re2.jpg" alt=""></a>
-                            <a href="./img/re3.jpg" data-fancybox="clientpic"><img src="./img/re3.jpg" alt=""></a>
-                            <a href="./img/re4.jpg" data-fancybox="clientpic"><img src="./img/re4.jpg" alt=""></a>
-                            
-                        </div>
+                    <!-- Slider main container -->
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="./img/re.jpg" alt="slide 7"></div>
+        <div class="swiper-slide"><img src="./img/re2.jpg" alt="slide 7"></div>
+        <div class="swiper-slide"><img src="./img/re3.jpg" alt="slide 7"></div>
+        <div class="swiper-slide"><img src="./img/re4.jpg" alt="slide 7"></div>
+        ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-paginationtwo"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+</div>
                 </section>
 
 
@@ -387,6 +401,11 @@ src="https://www.facebook.com/tr?id=665248897410567&ev=PageView&noscript=1"
                     <img class="signature" src="./img/signature.svg" alt="">
 
                 </section>
+                 <section class="copyright">
+            <div style="text-align: center;">
+                <a style="color: inherit;" target="_blank" href="/politics.html">Политика конфиденциальности</a>
+            </div>
+        </section>
             
             </div>
         </div>
