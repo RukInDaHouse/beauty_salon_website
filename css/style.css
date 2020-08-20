@@ -243,6 +243,32 @@ font-weight:bold;
     color: #c4909c;
 }
 
+a {
+    display: inline-block;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+}
+a:after {
+    background-color: #000;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    -webkit-transition: width .5s ease-in-out;
+    -moz--transition: width .5s ease-in-out;
+    transition: width .5s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+a:hover:after,
+a:focus:after {
+    width: 100%;
+}
+
 .nav-list li ul {
     padding-left: 28px;
     display: none;
