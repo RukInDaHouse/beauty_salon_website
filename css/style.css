@@ -51,6 +51,7 @@ html {
     list-style-type: disc; 
 }
 
+
 .section-des2 ul li {
     list-style-position: outside;
     margin: 5%;
@@ -420,12 +421,58 @@ font-weight:bold;
     position: absolute;
     color: #c4909c;
     font-weight: 800;
-    font-size: 140px;
-    line-height: 143px;
+    line-height: 80px;
     letter-spacing: 4px;
     z-index: 1;   
     left: 0;
     text-align: left;    
+}
+
+@media (min-width: 1000px) and (max-width: 1280px) {
+.entry-title {
+margin-left: -3%;
+width: 50%;
+font-size: 10px;
+line-height: 60px!important;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1376px) {
+.entry-title {
+margin-left: -10%;
+width: 50%;
+font-size: 30px;
+line-height: 80px;
+    }
+}
+
+@media (min-width: 1377px) and (max-width: 1600px) {
+.entry-title {
+margin-left: -15%;
+width: 50%;
+font-size: 40px;
+line-height: 80px;
+    }
+}
+
+@media (min-width: 1601px) and (max-width: 1680px) {
+.entry-title {
+margin-left: -25%;
+width: 50%;
+font-size: 40px;
+line-height: 80px;
+    }
+}
+
+
+@media (min-width: 1681px) {
+.entry-title {
+margin-left: -35%;
+width: 50%;
+font-size: 60px;
+line-height: 80px;
+
+    }
 }
 
 #home .entry-title span {
@@ -437,6 +484,19 @@ font-weight:bold;
     bottom: 0;
     left: 0;
     cursor: pointer;
+}
+
+
+
+.clientpic .photos {
+    margin: 0 20px;
+    padding: 20px 0;
+    padding-left: 1px;
+}
+.clientpic .photos img {
+    width: 138px;
+    margin: 4px;
+    border: 1px solid rgba(255,255,255,.3);
 }
 
 #home .main-btn img {
@@ -1300,7 +1360,7 @@ p.contact-submit-holder {
     }
 
     #home .entry-title {
-        font-size: 100px;
+        font-size: 30px;
         line-height: 123px;
     }
     .ss {display: none;}
