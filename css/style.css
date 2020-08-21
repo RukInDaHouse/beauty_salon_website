@@ -1193,6 +1193,9 @@ p.contact-submit-holder {
   width: 0%;
 }
 
+input {
+
+color: #000!important;}
 
 .contact-form input[type=submit] {
     display: inline-block;
@@ -1843,7 +1846,7 @@ button, select {
 }
 
 button, input, select, textarea {
-  color: #5A5A5A;
+  color: #000;
   font: inherit;
   margin: 0;
 }
@@ -1910,7 +1913,7 @@ input[type='text'], [type='email'], select, textarea {
     background: none;
   border: none;
     border-bottom: solid 2px #474544;
-    color: #474544;
+    color: #000;
     font-size: 1.000em;
   font-weight: 400;
   letter-spacing: 1px;
