@@ -1526,6 +1526,7 @@ background-color: #e9dfde;    }
     }
 
     #home .entry-title {
+        display: none;
         font-size: 90px;
         line-height: 113px;
     }
@@ -1601,6 +1602,7 @@ background-color: #e9dfde;    }
     }
 
     #home .entry-title {
+        display: none;
         font-size: 70px;
         line-height: 73px;
         max-width: 340px;
@@ -1692,6 +1694,7 @@ background-color: #e9dfde;    }
         font-size: 36px;
         line-height: 62px;
         padding: 50px 0;
+        display: none;
     }
     .ss {display: block ;
         text-align: center;
