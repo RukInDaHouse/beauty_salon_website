@@ -1182,6 +1182,18 @@ p.contact-submit-holder {
     margin: 0 auto;
 }
 
+.btn-primary {
+    -webkit-transition: .3s;
+  transition: .3s;
+}
+.btn-primary:hover {
+  border-radius: 15px;
+}
+.btn-primary:hover:after {
+  width: 0%;
+}
+
+
 .contact-form input[type=submit] {
     display: inline-block;
     border: 2px solid;
