@@ -334,6 +334,7 @@ a:focus:after {
     cursor: pointer;
     z-index: 10;
     background-color: #fff;
+    width: 5%;
 }
 
 .nav-btn.scroll-bottom {
@@ -1696,16 +1697,20 @@ background-color: #e9dfde;    }
         padding: 50px 0;
         display: none;
     }
-    .ss {display: block ;
+    .ss {
+        display: block ;
         text-align: center;
-        position: absolute;
+        position: fixed;
         font-size: 30px;
-       width: 100%;
-       top:0;
-       padding: 0;
-       margin: 0; 
-
+        width: 50%;
+        top:0;
+        padding: 0;
+        z-index: 99999999999;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 0)
     }
+
 
 
     p,
