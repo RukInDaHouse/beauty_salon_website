@@ -1,14 +1,8 @@
 <!DOCTYPE html>
-<!-- saved from url=(0037)https://demo.cocobasic.com/ukko-html/ -->
-<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Студия</title>
-        
-        <meta name="description" content="Template by CocoBasic">
-        <meta name="keywords" content="HTML, CSS, JavaScript, PHP">
-        <meta name="author" content="CocoBasic">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <script src="https://use.fontawesome.com/d5ed7b192f.js"></script>
-        <link href="./files/css" rel="stylesheet" type="text/css">                     
         <link rel="stylesheet" href="./css/clear.css">
         <link rel="stylesheet" href="./css/bootstrap-grid.css">        
         <link rel="stylesheet" href="./css/style.css">
@@ -415,19 +409,8 @@ src="https://www.facebook.com/tr?id=665248897410567&ev=PageView&noscript=1"
 
     $("#menu").on("click","a", function (event) {
         event.preventDefault();
-
-        var id  = $(this).attr('href'),
-
- 
-
-        //узнаем высоту от начала страницы до блока на который ссылается якорь
-
-            top = $(id).offset().top;
-
-         
-
-        //анимируем переход на расстояние - top за 1500 мс
-
+       var id  = $(this).attr('href'),
+          top = $(id).offset().top;
         $('body,html').animate({scrollTop: top}, 1500);
 
     });
