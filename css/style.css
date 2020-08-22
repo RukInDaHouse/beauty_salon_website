@@ -421,7 +421,6 @@ a:focus:after {
     3. Home Section CSS
 ====================================== */
 
-.ss {display: none;}
 
 #home {
     height: 100vh;
@@ -1399,7 +1398,6 @@ color: #000!important;}
         font-size: 30px;
         line-height: 123px;
     }
-    .ss {display: none;}
 
 
 
@@ -1428,15 +1426,39 @@ color: #000!important;}
         font-size: 80px;
         line-height: 113px;
     }
-    .ss {display: none;}
 
 
 }
+
 @media (min-width: 1000px) {
 .mobiletitle {
         display: none;
     }
+   
 }
+
+@media (min-width: 1025px) {
+
+.ss {
+    display: none;
+    }    
+}
+@media (max-width: 1024px) {
+     .ss {
+        display: block ;
+        text-align: center;
+        position: fixed;
+        font-size: 30px;
+        width: 50%;
+        top:0;
+        padding: 0;
+        z-index: 99999999999;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 0)
+    }
+}
+
 
 @media (max-width: 1199px) {
 
@@ -1544,7 +1566,7 @@ background-color: #e9dfde;    }
         text-align: center;
        
     }
-   
+
 
     .serv-block-wrap .serv-block-item {
         margin-bottom: 65px;
@@ -1711,19 +1733,7 @@ background-color: #e9dfde;    }
         padding: 50px 0;
         display: none;
     }
-    .ss {
-        display: block ;
-        text-align: center;
-        position: fixed;
-        font-size: 30px;
-        width: 50%;
-        top:0;
-        padding: 0;
-        z-index: 99999999999;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, 0)
-    }
+
 
 
 
