@@ -1402,6 +1402,8 @@ color: #000!important;}
     .ss {display: none;}
 
 
+
+
     .block-right {
         margin-right: -60px;
     }
@@ -1429,6 +1431,11 @@ color: #000!important;}
     .ss {display: none;}
 
 
+}
+@media (min-width: 1000px) {
+.mobiletitle {
+        display: none;
+    }
 }
 
 @media (max-width: 1199px) {
@@ -1510,6 +1517,7 @@ color: #000!important;}
         padding-bottom: 60px;
     }
 
+
 }
 
 @media (max-width: 1020px) {
@@ -1531,6 +1539,12 @@ background-color: #e9dfde;    }
         font-size: 90px;
         line-height: 113px;
     }
+    
+    .mobiletitle {
+        text-align: center;
+       
+    }
+   
 
     .serv-block-wrap .serv-block-item {
         margin-bottom: 65px;
