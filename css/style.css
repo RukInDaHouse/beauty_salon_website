@@ -115,6 +115,10 @@ a:hover {
     background-color: #fff;
 }
 
+.form-group label{
+    color:#000;
+}
+
 .block-right {
     margin-right: -100px;
 }
@@ -175,16 +179,17 @@ img.block-right {
     text-align: center;
 }
 .ogr hr {
-     border: none; /* Убираем границу для браузера Firefox */
-    color: #fff; /* Цвет линии для остальных браузеров */
-    background-color: #fff; /* Цвет линии для браузера Firefox и Opera */
-    height: 2px; /* Толщина линии */
+     border: none;
+    color: #fff; 
+    background-color: #fff; 
+    height: 2px; 
 }
 .hd {
 text-align: center; 
 color: #000; 
 font-size:23px;
 font-weight:bold;
+margin-top: 5%;
 }
 /* ===================================
     2. Header / Menu CSS
@@ -1576,7 +1581,8 @@ background-color: #e9dfde;    }
     
     .mobiletitle {
         text-align: center;
-       
+       font-size:25px;
+
     }
 
 
