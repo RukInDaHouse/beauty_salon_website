@@ -35,6 +35,9 @@ html {
     /*Avoid flicker on slides transitions for mobile phones #336 */
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+
+
+
 * {
     box-sizing: border-box;
     outline: none !important;
@@ -558,6 +561,15 @@ line-height: 80px;
     line-height: 1.65;
     color: #000;
     font-weight: bold;
+
+}
+
+.ogrplus {
+    font-size: 30px;
+    line-height: 1.65;
+    color: #000;
+    font-weight: bold;
+    margin-top: 5%;
 
 }
 
