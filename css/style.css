@@ -118,6 +118,39 @@ a:hover {
 .form-group label{
     color:#000;
 }
+.mobileheader h2 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 150%;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+}
+
+.order-block-v1 .cost-cont>div{
+    position: relative;
+    float: left;
+    width: 50%;
+    padding: 35px 20px 25px;
+    text-align: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.order-block-v1 .cost-cont>div>span{
+    display: block;
+    padding: 4px 0 0;
+    font-size: 38px;
+    line-height: 1em;
+    text-transform: none;
+    letter-spacing: normal;
+}
+.order-block-v1 .cost-cont .old-cost>span{
+    color: #262626;
+}
+.order-block-v1 .cost-cont .old-cost>span{
+    text-decoration: line-through;
+}
+
 
 .block-right {
     margin-right: -100px;
