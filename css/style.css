@@ -1610,6 +1610,11 @@ background-color: #e9dfde;    }
     #home {
         display: flex;
         align-items: center;
+        padding: 0;
+    }
+
+    .g{
+        padding: 0!important;
     }
 
     #home .entry-title {
@@ -1639,6 +1644,10 @@ background-color: #e9dfde;    }
 
     .container-wrap {
         width: 100%;
+        padding-top: 0;
+        margin-top:0;
+        top:0;
+        padding:0;
     }
 
     .home-blog-list li {
